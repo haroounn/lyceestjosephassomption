@@ -1,0 +1,32 @@
+<style type="text/css">
+    /* Centrer le contenu horizontalement et verticalement */
+    .hob_banner {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    /* Appliquer les styles au texte */
+    .text_banner {
+        color: #acb8c1;
+        font-size: 18px; /* Personnalisez la taille de la police */
+        margin-top: 20px; /* Espace au-dessus du texte */
+    }
+
+    /* Appliquer les styles au bouton */
+    .btn_ok {
+        background-color: #ec483b;
+        border: 2px solid #9e1508;
+        color: #ffffff;
+        padding: 10px 20px; /* Ajustez les marges intérieures pour le bouton */
+        text-decoration: none; /* Supprime le soulignement du lien */
+        margin-top: 20px; /* Espace au-dessus du bouton */
+    }
+
+    .btn_ok:hover {
+        filter: opacity(50%);
+    }
+</style>
